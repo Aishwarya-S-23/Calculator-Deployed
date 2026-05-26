@@ -1,14 +1,14 @@
-# Calculator API & Frontend
+# Full-Stack Calculator Application
 
-A full-stack calculator application built using **FastAPI**, **HTML/CSS/JavaScript**, and deployed using **Render** and **Vercel**.
+A fully deployed full-stack calculator application built using **FastAPI**, **HTML/CSS/JavaScript**, and deployed using **Render** and **Vercel**.
 
 This project was built to deeply understand:
 
 - Frontend ↔ Backend communication
-- FastAPI API development
-- Expression parsing
-- Operator precedence handling
+- REST APIs using FastAPI
+- Expression parsing and tokenization
 - Recursive bracket evaluation
+- Operator precedence handling
 - Deployment workflows
 - Full-stack architecture
 
@@ -16,16 +16,16 @@ This project was built to deeply understand:
 
 # Live Demo
 
-## Frontend
+## Frontend (Vercel)
 
-[https://your-frontend.vercel.app](https://calculator-deployed-besq.vercel.app/)
+https://calculator-deployed-besq.vercel.app/
 
 ---
 
-## Backend API
+## Backend API (Render)
 
-[https://your-backend.onrender.com
-](https://calculator-deployed.onrender.com)
+https://calculator-deployed.onrender.com
+
 ---
 
 # Features
@@ -38,10 +38,10 @@ This project was built to deeply understand:
 - Bracket support `()`
 - Recursive expression evaluation
 - Operator precedence handling
-- Responsive calculator UI
+- Responsive UI
 - FastAPI backend API
 - Real-time frontend-backend integration
-- Fully deployed full-stack application
+- Fully deployed online application
 
 ---
 
@@ -82,6 +82,8 @@ calculator-project/
 │
 ├── frontend/
 │   └── index.html
+│
+├── screenshots/
 │
 └── README.md
 ```
@@ -193,12 +195,32 @@ The calculator follows standard precedence rules:
 
 ---
 
+# Screenshots
+
+## Calculator UI
+
+![Calculator UI](screenshots/calculator-ui.png)
+
+---
+
+## Swagger API Documentation
+
+![Swagger Docs](screenshots/swagger-docs.png)
+
+---
+
+## Working Calculation
+
+![Working Demo](screenshots/working-demo.png)
+
+---
+
 # Local Setup
 
 ## Clone Repository
 
 ```bash
-git clone [https://github.com/your-username/repository-name.git](https://github.com/Aishwarya-S-23/Calculator-Deployed.git)
+git clone https://github.com/your-username/repository-name.git
 ```
 
 ---
@@ -270,8 +292,8 @@ This project helped in understanding:
 - CORS handling
 - Frontend-backend communication
 - Recursive computation logic
-- BFS/DSA-oriented logical thinking
 - Full-stack deployment workflow
+- Real-world debugging and deployment issues
 
 ---
 
@@ -280,7 +302,6 @@ This project helped in understanding:
 - Scientific calculator mode
 - Keyboard support
 - Calculation history
-- Authentication
 - Dark/Light themes
 - AST-based parser
 - Better error handling
@@ -291,5 +312,6 @@ This project helped in understanding:
 
 # Author
 
-Aishwarya S
+Aish  
 CSE (AI & ML) Student  
+Full-Stack & AI Enthusiast
