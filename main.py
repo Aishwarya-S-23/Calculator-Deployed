@@ -17,7 +17,7 @@ class ExpRequest(BaseModel):
   expression:str
 
 
-@app.get("/root")
+@app.get("/")
 def index():
   return {"message":"Calulator API is running fine"}
 
