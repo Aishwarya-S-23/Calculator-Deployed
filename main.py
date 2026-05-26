@@ -21,14 +21,14 @@ class ExpRequest(BaseModel):
 def index():
   return {"message":"Calulator API is running fine"}
 
-@app.post("https://calculator-deployed.onrender.com/result")
+@app.post("/result")
 def calculate(request: ExpRequest):
   try:
     tokens = tokenize(request.expression)
     answer = compute(tokens)
     return {
       "Expression " : request.expression,
-      "Result" : answer
+      "result" : answer
     }
   finally:
     print("Calculation completed")
