@@ -21,7 +21,7 @@ class ExpRequest(BaseModel):
 def index():
   return {"message":"Calulator API is running fine"}
 
-@app.post("/result")
+@app.post("https://your-calculator-api.onrender.com/result")
 def calculate(request: ExpRequest):
   try:
     tokens = tokenize(request.expression)
