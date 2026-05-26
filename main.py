@@ -7,7 +7,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://calculator-deployed-besq.vercel.app"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -30,5 +30,10 @@ def calculate(request: ExpRequest):
       "Expression " : request.expression,
       "result" : answer
     }
+  except Exception as e:
+    return {
+      "error": str(e)
+    }
+
   finally:
     print("Calculation completed")

@@ -40,7 +40,6 @@ def compute(tokens):
 
     inner_exp = values[o_ind + 1: c_ind]
     inner_exp_token = []
-    inner_exp_token = []
 
     for item in inner_exp:
         if isinstance(item, float):
