@@ -18,14 +18,14 @@ This project was built to deeply understand:
 
 ## Frontend
 
-https://your-frontend.vercel.app
+[https://your-frontend.vercel.app](https://calculator-deployed-besq.vercel.app/)
 
 ---
 
 ## Backend API
 
-https://your-backend.onrender.com
-
+[https://your-backend.onrender.com
+](https://calculator-deployed.onrender.com)
 ---
 
 # Features
@@ -198,7 +198,7 @@ The calculator follows standard precedence rules:
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/repository-name.git
+git clone [https://github.com/your-username/repository-name.git](https://github.com/Aishwarya-S-23/Calculator-Deployed.git)
 ```
 
 ---
@@ -258,23 +258,6 @@ The frontend communicates with the deployed backend using Fetch API.
 
 ---
 
-# Screenshots
-
-Add screenshots here:
-
-```text
-/screenshots
-```
-
-Examples:
-
-- Calculator UI
-- Swagger Docs
-- Deployment Screenshots
-- Working Calculations
-
----
-
 # Learning Outcomes
 
 This project helped in understanding:
@@ -308,6 +291,5 @@ This project helped in understanding:
 
 # Author
 
-Aish  
+Aishwarya S
 CSE (AI & ML) Student  
-Full-Stack & AI Enthusiast
